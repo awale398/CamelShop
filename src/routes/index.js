@@ -6,6 +6,8 @@ import AboutUs from "./../components/AboutUs.vue"
 import contacts from "./../components/contacts.vue"
 import Cart from "./../components/Cart.vue"
 import services from "./../components/services.vue"
+import ManageProducts from "./../components/ManageProducts.vue"
+
 
 
 const routes = [
@@ -39,6 +41,12 @@ const routes = [
         name: 'services',
         component: services,
       },
+      {
+        path: '/ManageProducts',
+        name: 'ManageProducts',
+        component: ManageProducts,
+        
+      }
 ]
 const router = createRouter({
   history: createWebHistory(),
